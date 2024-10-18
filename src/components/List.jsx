@@ -22,7 +22,7 @@ const List = () => {
     return (
         <>
             <h2>Characters</h2>
-            <div className="max-w-screen-lg grid grid-cols-3 gap-4">
+            <div className="max-w-screen-lg m-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
                 {loading ? (
                     <div>Loading...</div>
                 ) : (
